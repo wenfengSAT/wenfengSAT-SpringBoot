@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot-rabbitmq
+Implementation-Version: 1.0.0-SNAPSHOT
+Built-By: admin
+Implementation-Vendor-Id: com.xncoding
+Build-Jdk: 1.8.0_92
+Implementation-URL: http://projects.spring.io/spring-boot/springboot-r
+ abbitmq/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
