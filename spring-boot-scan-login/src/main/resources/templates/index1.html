@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>内嵌(自定义二维码)</title>
+</head>
+<script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+
+<body>
+        <h1>hello! <label th:text="${name}"></label></h1>
+        <div id="login_container"></div>
+    <script th:inline="javascript">
+        var obj = new WxLogin({
+            self_redirect:true,
+            id:"login_container",
+            appid: [[${appid}]],
+            scope: [[${scope}]],
+            redirect_uri: [[${redirect_uri}]],
+            state: "",
+            style: "",
+            href: ""
+        });
+    </script>
+</body>
+</html>
