@@ -1,0 +1,15 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-idle: 3
+        max-active: 10
+    session:
+      #session存储类型
+      store-type: redis
+
+subscribe-queue-size : 10
+subscribe-queue-pool-size : 2000
