@@ -50,7 +50,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <version.java>1.8</version.java>
         <version.springboot>1.5.9.RELEASE</version.springboot>
-        <version.spring>4.3.13.RELEASE</version.spring>
+        <version.spring>6.0.0</version.spring>
         <version.rocketmq>3.6.2.Final</version.rocketmq>
     </properties>
 
